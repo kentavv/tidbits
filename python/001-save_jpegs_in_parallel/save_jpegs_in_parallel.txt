@@ -1,0 +1,154 @@
+# AMD Ryzen 7 1800X Eight-Core Processor
+# 64 GiB RAM
+# Samsung SSD 960 PRO 512GB NVMe
+
+
+[kent@linux-1 001-save_jpegs_in_parallel]$ ./save_jpegs_in_parallel.py 
+Current time: 2018-08-05 08:27:17.168906
+Processor: AMD Ryzen 7 1800X Eight-Core Processor
+MemTotal: 65964108 kB
+MemAvailable: 62501748 kB
+Python version: 3.6.6 (default, Jul 19 2018, 14:25:17) 	[GCC 8.1.1 20180712 (Red Hat 8.1.1-5)]
+OpenCV version: 3.4.1
+Numpy version: 1.14.5
+
+Creating 1 random images of size (1000, 1000, 3) ...        0.01s
+Writing images in serial ...                                0.30s 1.00x
+Writing images in parallel (method 0) ...                   1.56s 0.20x
+Writing images in parallel (method 1) ...                   1.61s 0.19x
+Writing images in parallel (method 2) ...                   1.58s 0.19x
+Writing images in parallel (method 3) ...                   1.64s 0.19x
+
+Creating 1 random images of size (2000, 2000, 3) ...        0.03s
+Writing images in serial ...                                1.39s 1.00x
+Writing images in parallel (method 0) ...                   2.54s 0.55x
+Writing images in parallel (method 1) ...                   2.64s 0.53x
+Writing images in parallel (method 2) ...                   2.55s 0.54x
+Writing images in parallel (method 3) ...                   2.96s 0.47x
+
+Creating 1 random images of size (4000, 4000, 3) ...        0.14s
+Writing images in serial ...                                5.56s 1.00x
+Writing images in parallel (method 0) ...                   8.67s 0.64x
+Writing images in parallel (method 1) ...                   7.18s 0.77x
+Writing images in parallel (method 2) ...                   6.88s 0.81x
+Writing images in parallel (method 3) ...                   6.58s 0.84x
+
+Creating 1 random images of size (8000, 8000, 3) ...        0.53s
+Writing images in serial ...                                22.70s 1.00x
+Writing images in parallel (method 0) ...                   32.35s 0.70x
+Writing images in parallel (method 1) ...                   26.12s 0.87x
+Writing images in parallel (method 2) ...                   24.89s 0.91x
+Writing images in parallel (method 3) ...                   25.23s 0.90x
+
+Creating 2 random images of size (1000, 1000, 3) ...        0.02s
+Writing images in serial ...                                0.59s 1.00x
+Writing images in parallel (method 0) ...                   1.58s 0.37x
+Writing images in parallel (method 1) ...                   1.65s 0.36x
+Writing images in parallel (method 2) ...                   1.62s 0.36x
+Writing images in parallel (method 3) ...                   1.73s 0.34x
+
+Creating 2 random images of size (2000, 2000, 3) ...        0.06s
+Writing images in serial ...                                2.71s 1.00x
+Writing images in parallel (method 0) ...                   3.83s 0.71x
+Writing images in parallel (method 1) ...                   3.05s 0.89x
+Writing images in parallel (method 2) ...                   2.92s 0.93x
+Writing images in parallel (method 3) ...                   3.70s 0.73x
+
+Creating 2 random images of size (4000, 4000, 3) ...        0.27s
+Writing images in serial ...                                10.65s 1.00x
+Writing images in parallel (method 0) ...                   10.76s 0.99x
+Writing images in parallel (method 1) ...                   8.60s 1.24x
+Writing images in parallel (method 2) ...                   7.45s 1.43x
+Writing images in parallel (method 3) ...                   9.08s 1.17x
+
+Creating 2 random images of size (8000, 8000, 3) ...        1.06s
+Writing images in serial ...                                44.83s 1.00x
+Writing images in parallel (method 0) ...                   40.26s 1.11x
+Writing images in parallel (method 1) ...                   30.60s 1.47x
+Writing images in parallel (method 2) ...                   28.02s 1.60x
+Writing images in parallel (method 3) ...                   32.81s 1.37x
+
+Creating 4 random images of size (1000, 1000, 3) ...        0.03s
+Writing images in serial ...                                1.17s 1.00x
+Writing images in parallel (method 0) ...                   1.51s 0.77x
+Writing images in parallel (method 1) ...                   1.63s 0.71x
+Writing images in parallel (method 2) ...                   1.61s 0.72x
+Writing images in parallel (method 3) ...                   1.74s 0.67x
+
+Creating 4 random images of size (2000, 2000, 3) ...        0.13s
+Writing images in serial ...                                5.26s 1.00x
+Writing images in parallel (method 0) ...                   4.73s 1.11x
+Writing images in parallel (method 1) ...                   3.05s 1.73x
+Writing images in parallel (method 2) ...                   2.74s 1.92x
+Writing images in parallel (method 3) ...                   4.13s 1.28x
+
+Creating 4 random images of size (4000, 4000, 3) ...        0.51s
+Writing images in serial ...                                21.35s 1.00x
+Writing images in parallel (method 0) ...                   14.87s 1.43x
+Writing images in parallel (method 1) ...                   10.39s 2.06x
+Writing images in parallel (method 2) ...                   8.70s 2.45x
+Writing images in parallel (method 3) ...                   12.16s 1.76x
+
+Creating 4 random images of size (8000, 8000, 3) ...        2.11s
+Writing images in serial ...                                87.52s 1.00x
+Writing images in parallel (method 0) ...                   55.25s 1.58x
+Writing images in parallel (method 1) ...                   37.76s 2.32x
+Writing images in parallel (method 2) ...                   32.56s 2.69x
+Writing images in parallel (method 3) ...                   46.66s 1.88x
+
+Creating 8 random images of size (1000, 1000, 3) ...        0.06s
+Writing images in serial ...                                2.34s 1.00x
+Writing images in parallel (method 0) ...                   2.74s 0.85x
+Writing images in parallel (method 1) ...                   1.96s 1.19x
+Writing images in parallel (method 2) ...                   1.82s 1.28x
+Writing images in parallel (method 3) ...                   2.15s 1.09x
+
+Creating 8 random images of size (2000, 2000, 3) ...        0.25s
+Writing images in serial ...                                10.79s 1.00x
+Writing images in parallel (method 0) ...                   6.15s 1.75x
+Writing images in parallel (method 1) ...                   4.86s 2.22x
+Writing images in parallel (method 2) ...                   4.38s 2.46x
+Writing images in parallel (method 3) ...                   6.43s 1.68x
+
+Creating 8 random images of size (4000, 4000, 3) ...        1.05s
+Writing images in serial ...                                42.09s 1.00x
+Writing images in parallel (method 0) ...                   23.87s 1.76x
+Writing images in parallel (method 1) ...                   15.34s 2.74x
+Writing images in parallel (method 2) ...                   13.45s 3.13x
+Writing images in parallel (method 3) ...                   20.98s 2.01x
+
+Creating 8 random images of size (8000, 8000, 3) ...        4.24s
+Writing images in serial ...                                176.25s 1.00x
+Writing images in parallel (method 0) ...                   88.27s 2.00x
+Writing images in parallel (method 1) ...                   57.43s 3.07x
+Writing images in parallel (method 2) ...                   47.52s 3.71x
+Writing images in parallel (method 3) ...                   78.52s 2.24x
+
+Creating 16 random images of size (1000, 1000, 3) ...       0.12s
+Writing images in serial ...                                4.68s 1.00x
+Writing images in parallel (method 0) ...                   3.99s 1.17x
+Writing images in parallel (method 1) ...                   3.37s 1.39x
+Writing images in parallel (method 2) ...                   3.10s 1.51x
+Writing images in parallel (method 3) ...                   2.77s 1.69x
+
+Creating 16 random images of size (2000, 2000, 3) ...       0.52s
+Writing images in serial ...                                21.62s 1.00x
+Writing images in parallel (method 0) ...                   9.96s 2.17x
+Writing images in parallel (method 1) ...                   7.87s 2.75x
+Writing images in parallel (method 2) ...                   6.74s 3.21x
+Writing images in parallel (method 3) ...                   10.41s 2.08x
+
+Creating 16 random images of size (4000, 4000, 3) ...       2.12s
+Writing images in serial ...                                84.40s 1.00x
+Writing images in parallel (method 0) ...                   41.58s 2.03x
+Writing images in parallel (method 1) ...                   27.42s 3.08x
+Writing images in parallel (method 2) ...                   23.59s 3.58x
+Writing images in parallel (method 3) ...                   38.35s 2.20x
+
+Creating 16 random images of size (8000, 8000, 3) ...       8.39s
+Writing images in serial ...                                351.61s 1.00x
+Writing images in parallel (method 0) ...                   155.42s 2.26x
+Writing images in parallel (method 1) ...                   105.21s 3.34x
+Writing images in parallel (method 2) ...                   84.43s 4.16x
+Writing images in parallel (method 3) ...                   147.51s 2.38x
+
