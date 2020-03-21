@@ -5,6 +5,10 @@ import numpy as np
 import pyemd
 import scipy.stats
 
+# A comparison between
+#  https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wasserstein_distance.html
+# and
+#  https://github.com/wmayner/pyemd
 
 # See the following excellent discussion on differences between pyemd and wasserstein_distance
 # https://github.com/scipy/scipy/issues/9152#issuecomment-416229536
