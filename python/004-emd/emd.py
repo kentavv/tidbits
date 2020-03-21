@@ -36,6 +36,10 @@ def main():
     c1 = (be1[:-1] + be1[1:]) / 2
     c2 = (be2[:-1] + be2[1:]) / 2
 
+    # The number of bin edges will be one greater than the number of bins.
+    # The number of bins in the returned histogram is equal to the passed bins argument.
+    # The number of ben centers will be equal to the number of bins.
+
     if show_plots:
         fig = plt.figure()
         ax = fig.add_subplot(1, 1, 1)
